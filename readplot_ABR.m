@@ -75,6 +75,13 @@ ABR_GA_sum(:,j) = mean(allfiles_tdatsum(:,j:9:size(allfiles_tdatsum,2)),2);
 ABR_GA_diff(:,j) = mean(allfiles_tdatdiff(:,j:9:size(allfiles_tdatdiff,2)),2);
 end 
 
+%% split file for first 20ms 
+
+
+
+%% apply filter 
+
+
 
 %% plots
 
@@ -82,6 +89,7 @@ figure
 for i = 1:9 
     subplot(9,1,i)
     plot(ABR_GA_sum(:,i))
+    xlim ([0 250])
 end 
 
 
