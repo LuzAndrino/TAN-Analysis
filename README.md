@@ -1,4 +1,4 @@
-ABR analysis with CFTS
-this can be applied to different gerbil groups once the pipeline is finished
-added an xlim 
+Personal repo for partha lab 
+Setting up structure 
+
 -- still need to add filter -- 
